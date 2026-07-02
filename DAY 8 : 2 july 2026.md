@@ -261,5 +261,30 @@ Use `np.where()` to:
 
 <img width="947" height="510" alt="image" src="https://github.com/user-attachments/assets/d753ff6f-3520-4c05-8e87-450fbf10a17d" />
 
+---
+
+###   Mini Challenge — Put It All Together! 
+
+You are a teacher with the following data for **6 students** across **4 subjects**:  
+*(Subjects: Maths, Science, English, Computer)*
+
+```
+Student 0: [82, 76, 90, 88]
+Student 1: [55, 60, 72, 50]
+Student 2: [91, 85, 78, 95]
+
+```
+
+Do the following:
+- (a) Print the shape of the array.
+- (b) Find the **total marks** for each student.
+- (c) Find the **average marks** per subject.
+- (d) Identify students whose **total marks are below 250** (struggling students).
+- (e) Use `np.where()` to label each student's **total** as `"Good"` if ≥ 300, else `"Needs Improvement"`.
+
+# Answer:
+
+<img width="823" height="590" alt="image" src="https://github.com/user-attachments/assets/04ef53b9-9a0d-4857-a573-7859751d2346" />
+
 
 
