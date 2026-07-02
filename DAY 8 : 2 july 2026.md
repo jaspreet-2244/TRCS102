@@ -234,3 +234,32 @@ Values at those indices  : [90 85 92]
 Students needing remedial support (index): [2 5]
 Their scores: [48 38]
 ```
+# Practice Questions:
+### Boolean Masking
+Given temperatures: `temps = np.array([22, 35, 18, 40, 28, 15, 38, 25, 42, 30])`
+
+- (a) Find all temperatures **above 30°C** (hot days).
+- (b) Find all temperatures **between 20°C and 30°C** (comfortable days).
+- (c) Count how many days were **below 20°C** (cold days).
+- (d) Check if **any** day had temperature **above 40°C**.
+
+# Answer:
+
+<img width="718" height="699" alt="image" src="https://github.com/user-attachments/assets/41d78461-25ba-4a2a-a837-699123b5da9a" />
+
+---
+
+###  `np.where()` — Grade Assignment
+Given scores: `scores = np.array([45, 62, 78, 91, 55, 83, 70, 38, 95, 66])`
+
+Use `np.where()` to:
+- (a) Label each score as `"Pass"` (≥ 60) or `"Fail"` (< 60).
+- (b) Apply a **curved score**: Add 5 marks to anyone who scored **below 50**, leave others unchanged.
+- (c) Assign grade **"Distinction"** if score ≥ 85, **"Merit"** if score ≥ 65, else **"Pass/Fail"** as appropriate.
+
+# Answer:
+
+<img width="947" height="510" alt="image" src="https://github.com/user-attachments/assets/d753ff6f-3520-4c05-8e87-450fbf10a17d" />
+
+
+
